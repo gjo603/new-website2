@@ -10,6 +10,7 @@ a {
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
+    
 }
 
 .logo {
@@ -29,7 +30,7 @@ body {
 }
 
 a:hover {
-    background: rgba(94, 93, 93, 0.555);
+    color: #dbdbdb;
 }
 
 .space {
@@ -103,4 +104,9 @@ body {
     padding: 5px;
     border-bottom: 2px solid black;
     width: 75%;
+}
+
+img {
+    width: 100% !important;
+    height: 100%;
 }
