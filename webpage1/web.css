@@ -163,3 +163,13 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /* picture styles */
+
+  /* img {
+      width: 50%;
+      height: 100%;
+      float: right;
+      margin: 50px;
+
+  } */
