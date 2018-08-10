@@ -1,3 +1,7 @@
+
+.link2 {
+    background-color: rgba(73, 73, 73, 0.493);
+}
 .header {
     background: rgba(73, 73, 73, 0.493);
     display: flex;
@@ -41,7 +45,7 @@ a:hover {
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=landscape-nature-sky-236047.jpg&fm=jpg);
+    background-image: url(../temple.jpeg);
     background-size: 100%;
 }
 
