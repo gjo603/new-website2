@@ -1,4 +1,4 @@
-
+/* header */
 .header {
     background: rgba(73, 73, 73, 0.493);
     display: flex;
@@ -24,13 +24,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    min-width: 1055px;
+    min-width: 1385px;
 
 
 }
 
 a:hover {
-    color: #dbdbdb;
+    background: rgba(94, 93, 93, 0.555);
 }
 
 .space {
@@ -105,8 +105,23 @@ body {
     border-bottom: 2px solid black;
     width: 75%;
 }
-
+/* photo styles */
 img {
     width: 100% !important;
     height: 100%;
+    transition: transform .1s; /* Animation */
 }
+
+img:hover {
+    transform: scale(2);
+    
+}
+
+.div a:hover {
+    background: none;
+    color: #b9b8b8;
+}
+.photos {
+    margin-left: 10%;
+}
+
